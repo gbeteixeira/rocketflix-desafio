@@ -1,0 +1,39 @@
+.button {
+  height: 50px;
+  border-radius: 8px;
+  background: #fff;
+  color: #000000;
+  padding: 0 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  border: 0;
+  transition: filter 0.2s;
+
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+
+  img{
+    margin-right: 8px;
+    width: 40px;
+  }
+
+  &:hover{
+    filter: brightness(0.9);
+  }
+
+  &.outlined {
+    background: linear-gradient(67.08deg, #1E46A3 0%, #000000 48.94%, #C12A23 99.97%);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+
+  &+.button{
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,45 @@
+
+.container {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  .header{
+
+    h2{
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 60px; 
+  
+      color: #FFFCF9;
+    }
+  
+    img{
+      width: 88px;
+      height: 63px;
+    }
+
+  }
+
+  .buttonEncontrar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #FFFCF9;
+  }
+
+  .backHome{
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,36 @@
+
+.containerCategories{
+
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+
+  .h2Principal {
+    color: #ffff;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .containerCategory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 50vh;
+    align-items: center;
+
+    h2 {
+      color: #ffff;
+    }
+
+    .genres {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .trending {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

@@ -7,8 +7,7 @@ type itemProps = {
 }
 
 export default function Filme({ items }: itemProps) {
-
-  console.log(items.original_name)
+  
   return (
     <div className="containerFilme">
         <>

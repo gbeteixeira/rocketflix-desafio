@@ -1,32 +1,43 @@
-.containerFilme{
+.containerFilme {
   display: flex;
   justify-content: center;
   width: 50%;
   margin-bottom: 30px;
 
-  .infoFilme{
-     text-align: left;
-     margin-left: 30px;
+  .infoFilme {
+    text-align: left;
+    margin-left: 30px;
 
-     .title {
+    .title {
       font-family: Poppins;
       font-style: normal;
       font-weight: bold;
       font-size: 20px;
       line-height: 30px;
 
-      color: #FFFCF9;
-     }
+      color: #fffcf9;
+    }
 
-    .description{
-
+    .description {
       font-family: Poppins;
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
       line-height: 24px;
 
-      color: #FFFCF9;
+      color: #fffcf9;
+
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-line-clamp: 13;
+      text-align: left;
+      -webkit-box-orient: vertical;
+
+      @media screen and (max-width: 1020px) {
+        text-align: center;
+        display: '';
+      }
+
     }
 
     @media screen and (max-width: 1020px) {
